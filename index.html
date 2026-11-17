@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>II. Dünya Savaşı Çatışma Haritası</title>
+    <link rel="stylesheet" href="/ww2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+    <link id="canonical" rel="canonical" href="https://ww2.alprys.com">
+    <link rel="privacy-policy" href="https://alprys.com/tr/privacy">
+    <link rel="terms-of-service" href="https://alprys.com/tr/terms">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="II. Dünya Savaşı Çatışma Haritası">
+    <meta name="description" content="Bu harita, II. Dünya Savaşı süresince yaşanan önemli çatışmaları ve bu çatışmalar sırasında el değiştiren toprakları interaktif bir biçimde göstermektedir. Bu haritayı incelerken bir yandan da savaşta yaşanan olaylar ve ülkelerin durumu hakkında bilgi edinebilirsiniz.">
+    <meta name="keywords" content="ww2, dünya savaşı, dunya savasi, harita, world war, map, alprys">
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="color-scheme" content="dark">
+    <meta name="application-name" content="II. Dünya Savaşı Çatışma Haritası">
+    <meta property="og:url" content="https://ww2.alprys.com">
+    <meta property="og:image" content="https://ww2.alprys.com/victory.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:description" content="Bu harita, II. Dünya Savaşı süresince yaşanan önemli çatışmaları ve bu çatışmalar sırasında el değiştiren toprakları interaktif bir biçimde göstermektedir. Bu haritayı incelerken bir yandan da savaşta yaşanan olaylar ve ülkelerin durumu hakkında bilgi edinebilirsiniz.">
+    <meta property="og:title" content="II. Dünya Savaşı Çatışma Haritası">
+    <meta property="og:site_name" content="II. Dünya Savaşı Çatışma Haritası">
+    <meta property="og:see_also" content="https://ww2.alprys.com">
+    <meta name="twitter:creator" content="alprys">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://ww2.alprys.com">
+    <meta name="twitter:title" content="II. Dünya Savaşı Çatışma Haritası">
+    <meta name="twitter:description" content="Bu harita, II. Dünya Savaşı süresince yaşanan önemli çatışmaları ve bu çatışmalar sırasında el değiştiren toprakları interaktif bir biçimde göstermektedir. Bu haritayı incelerken bir yandan da savaşta yaşanan olaylar ve ülkelerin durumu hakkında bilgi edinebilirsiniz.">
+    <meta name="twitter:image" content="https://ww2.alprys.com/victory.png">
+
+    <script src="/ww2.js"></script>
+
+    <style>
+        .leaflet-container {
+            background-color: #1a1a1a;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .leaflet-interactive:hover {
+            fill: #F5DD27;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="menu">
+            <h1 id="title"></h1>
+            <p id="description" style="overflow-y: scroll; max-height: 45%; display: none;"></p>
+            <a id="descriptionButton" style="cursor: pointer;">Açıklamayı göster</a><br><br>
+            <div id="simButtons">
+                <button id="backButton" disabled>Önceki</button>
+                <button id="nextButton">Sonraki</button>
+                <button id="autoplayButton">Otomatik oynat</button>
+                <br><small id="counter" style="display: none;"></small>
+                <progress id="progressBar" max="20" value="0" style="display: none;"></progress>
+            </div>
+            <div id="okayButton" style="display: none;">
+                <button id="backToMenuButton">Geri dön</button>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+    <footer>
+        <p>Bu site, <a href="https://alprys.com/?from=ww2_harita" target="_blank">
+                <img alt="🙂" loading="lazy" style="width: 1em; height: 1em;"
+                    src="https://cdn.alprys.com/thealp/images/alprys.png"> Alp</a> ve <a
+                href="https://github.com/alprys/ww2-harita/contributors" target="_blank">katkıda bulunanlar</a>
+            tarafından hazırlanmış olup <a href="https://github.com/alprys/ww2-harita" target="_blank">açık kaynak</a>
+            bir projenin parçasıdır!
+            <br><br><a href="https://alprys.com/tr/terms" target="_blank"
+                title="alprys Hizmet Koşulları bu siteyi kapsamı altına alır ve yalnızca alprys.com alan adının altında görüntülenir.">Hizmet
+                Koşulları</a> | <a href="https://alprys.com/tr/privacy" target="_blank"
+                title="alprys Gizlilik Politikası bu siteyi kapsamı altına alır ve yalnızca alprys.com alan adının altında görüntülenir.">Gizlilik
+                Politikası</a>
+        </p>
+    </footer>
+</body>
+
+</html>
