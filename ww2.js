@@ -81,10 +81,10 @@ window.addEventListener('load', () => {
         } else {
             title.innerHTML = timeline[index].title;
             description.innerText = timeline[index].description;
-
-            okayButton.style.display = 'none';
-            simButtons.style.display = 'block';
         }
+
+        okayButton.style.display = 'none';
+        simButtons.style.display = 'block';
     }
 
     function ChangeTimeline() {
