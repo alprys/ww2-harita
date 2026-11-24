@@ -50,4 +50,4 @@ Bu olaylar,
 ## Kurulum ve Çalıştırma
 Bu site tamamen statik olduğu için [GitHub Pages](https://pages.github.com) üzerinden çalıştırılabilmektedir.
 
-Bu siteyi yerel bilgisayarınızda çalıştırmak için buradaki kodu bilgisayarınıza indirip `index.html` dosyasını açmanız yeterlidir.
+Bu siteyi yerel bilgisayarınızda çalıştırmak için buradaki kodu bilgisayarınıza indirin, dosyayı sıkıştırılmış ZIP klasöründen çıkarın ve `index.html` dosyasını açın.
