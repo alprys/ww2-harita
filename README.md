@@ -50,4 +50,4 @@ Bu olaylar,
 ## Kurulum ve Çalıştırma
 Bu site tamamen statik olduğu için [GitHub Pages](https://pages.github.com) üzerinden çalıştırılabilmektedir.
 
-Bu siteyi yerel bilgisayarınızda çalıştırmak için [Visual Studio Code](https://code.visualstudio.com/) uygulamasındaki önizleme özelliğini kullanabilirsiniz. Buradaki kodu indirip doğrudan dosyalar üzerinden açmak (`file:///` uzantısı ile başlayacak biçimde), interaktif haritayı çalıştırmak için **yeterli değildir** (Leaflet bu şekilde çalıştırılamaz)! Bu sitenin yerel bir sunucu ile çalıştırılması gerekmektedir.
+Bu siteyi yerel bilgisayarınızda çalıştırmak için buradaki kodu bilgisayarınıza indirip `index.html` dosyasını açmanız yeterlidir.

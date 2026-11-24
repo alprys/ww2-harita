@@ -3,6 +3,18 @@ const initialText = {
     "description": "Bu harita, II. Dünya Savaşı süresince yaşanan önemli çatışmaları ve bu çatışmalar sırasında el değiştiren toprakları göstermektedir. II. Dünya Savaşı dünyanın birçok bölgesinde etki sahibi olmuş olduğundan dolayı bu haritayı fareniz ile gezebilirsiniz."
 }
 
+function loadData(name) {
+    return new Promise((resolve, reject) => {
+        window.__data = window.__data || {};
+        if (window.__data[name]) return resolve(window.__data[name]);
+        const s = document.createElement('script');
+        s.src = `data/${name}.js`;
+        s.onload = () => resolve(window.__data[name]);
+        s.onerror = reject;
+        document.head.appendChild(s);
+    });
+}
+
 window.addEventListener('load', () => {
     const map = L.map('map', {
         maxBounds: [[], []],
@@ -33,14 +45,12 @@ window.addEventListener('load', () => {
 
     const initialZoom = 4;
 
-    fetch('/data/countries.json')
-        .then(response => response.json())
+    loadData('countries.json')
         .then(data => {
             info = data;
         });
 
-    fetch('/data/timeline.json')
-        .then(response => response.json())
+    loadData('timeline.json')
         .then(data => {
             timeline = data;
             map.setView(timeline[0].zoom, initialZoom, { animate: false });
@@ -49,8 +59,7 @@ window.addEventListener('load', () => {
             description.innerText = initialText.description;
         });
 
-    fetch('/data/geo0.geojson')
-        .then(response => response.json())
+    loadData('geo0.geojson')
         .then(data => {
             layer = new L.geoJSON(data, {
                 style(feature) {
@@ -92,8 +101,7 @@ window.addEventListener('load', () => {
         progressBar.value = index + 1;
 
         setTimeout(() => {
-            fetch(`/data/geo${index}.geojson`)
-                .then(response => response.json())
+            loadData(`geo${index}.geojson`)
                 .then(data => {
                     map.removeLayer(layer)
                     layer = new L.geoJSON(data, {

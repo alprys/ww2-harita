@@ -1,0 +1,917 @@
+window.__data=window.__data||{};window.__data["countries.json"]=[
+  {
+    "id": "AME",
+    "name": "Amerika Birleşik Devletleri",
+    "description": "Savaşın başında tarafsız kalmış, ancak Müttefik Devletler'e silah yardımında bulunmuştur. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KAN",
+    "name": "Kanada",
+    "description": "İngiltere mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "NEW",
+    "name": "Newfoundland",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BAH",
+    "name": "Bahamalar",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KUB",
+    "name": "Küba",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "HAI",
+    "name": "Haiti",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "DOM",
+    "name": "Dominik Cumhuriyeti",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaika",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "TRI",
+    "name": "Trinidad ve Tobago",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BAR",
+    "name": "Barbados",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "GUA",
+    "name": "Guadelup",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "MAR",
+    "name": "Martinik",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "MEK",
+    "name": "Meksika",
+    "description": "Savaşın başında tarafsız kalmıştır. Mayıs 1942'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "BEL",
+    "name": "Belize",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "GUB",
+    "name": "Guatemala",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "HON",
+    "name": "Honduras",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "ELS",
+    "name": "El Salvador",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "NIK",
+    "name": "Nikaragua",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "KOS",
+    "name": "Kosta Rika",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "description": "Savaşın başında tarafsız kalmıştır. Pearl Harbor saldırısının ardından Aralık 1941'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "KOL",
+    "name": "Kolombiya",
+    "description": "Savaşın başında tarafsız kalmıştır. 1943'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela",
+    "description": "Savaşın başında tarafsız kalmıştır. Mart 1945'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "GUY",
+    "name": "Guyana",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SUR",
+    "name": "Surinam",
+    "description": "Hollanda kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "FRA",
+    "name": "Fransız Guyanası",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "EKV",
+    "name": "Ekvador",
+    "description": "Savaşın başında tarafsız kalmıştır. Savaşın ilerleyen süreçlerinde Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "PER",
+    "name": "Peru",
+    "description": "Savaşın başında tarafsız kalmıştır. Şubat 1945'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "BRE",
+    "name": "Brezilya",
+    "description": "Savaşın başında tarafsız kalmıştır. Ağustos 1942'de Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivya",
+    "description": "Savaşın başında tarafsız kalmıştır. Nisan 1943'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "PAR",
+    "name": "Paraguay",
+    "description": "Savaşın başında tarafsız kalmıştır. Şubat 1945'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "SIL",
+    "name": "Şili",
+    "description": "Savaşın başında tarafsız kalmıştır. Nisan 1945'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "ARJ",
+    "name": "Arjantin",
+    "description": "Savaşın başında tarafsız kalmıştır. Mart 1945'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "URU",
+    "name": "Uruguay",
+    "description": "Savaşın başında tarafsız kalmıştır. Şubat 1945'te Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "BIR",
+    "name": "Birleşik Krallık",
+    "description": "Savaşın başlıca Müttefik Devletler üyelerindendir. Mihver Devletler ile birçok cephede birden savaşmıştır. Almanya'nın hava saldırılarını geri püskürterek işgal edilmekten kurtulmuştur."
+  },
+  {
+    "id": "IRL",
+    "name": "İrlanda",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "HOL",
+    "name": "Hollanda",
+    "description": "Mayıs 1940 itibarıyla Mihver Devletler'in işgali altında bulunmuştur. Mayıs 1945'te işgalden kurtulmuştur."
+  },
+  {
+    "id": "BEA",
+    "name": "Belçika",
+    "description": "Mayıs 1940 itibarıyla Mihver Devletler'in işgali altında bulunmuştur. Mayıs 1945'te işgalden kurtulmuştur."
+  },
+  {
+    "id": "LUK",
+    "name": "Lüksemburg",
+    "description": "Mayıs 1940 itibarıyla Mihver Devletler'in işgali altında bulunmuştur. Mayıs 1945'te işgalden kurtulmuştur."
+  },
+  {
+    "id": "FRB",
+    "name": "Fransa",
+    "description": "Savaşın başında Müttefik Devletler'in en önemli üyelerinden biri olmuştur. Kuzeyi Haziran 1940 itibarıyla Mihver işgali altında bulunmuş, güneyde Almanya kuklası bir Vichy Fransa kurulmuştur. General Charles de Gaulle'ün altında Özgür Fransız Ordusu kurulmuş, Normandiya Çıkarması'nın ardından Ağustos 1944'te Mihver işgali sonlandırılmıştır."
+  },
+  {
+    "id": "VIC",
+    "name": "Vichy Fransası",
+    "description": "İsmini başkenti olan \"Vichy\" şehrinden alan, Haziran 1940'da kurulan Almanya kuklası bir yönetimdir. General Charles de Gaulle'ün altında bu yönetime karşı bir Özgür Fransız Ordusu kurulmuş, Normandiya Çıkarması'nın ardından Ağustos 1944'te varlığı son bulmuştur."
+  },
+  {
+    "id": "ISV",
+    "name": "İsviçre",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "ISP",
+    "name": "İspanya",
+    "description": "Bir iç savaştan çıktığı için savaş boyunca tarafsız kalmış, ancak faşist lider Franco önderliğinde Mihver Devletler'i desteklemiştir."
+  },
+  {
+    "id": "POR",
+    "name": "Portekiz",
+    "description": "Savaş boyunca tarafsız kalmış, ancak korpotalist lider Salazar önderliğinde Mihver Devletler'i desteklemiştir."
+  },
+  {
+    "id": "NAZ",
+    "name": "Nazi Almanyası",
+    "description": "Mihver Devletler'in en önemli üyesidir. Nazi Partisi ve Hitler liderliğinde \"Lebensraum\" anlayışını geliştirmiş ve tüm dünyayı ele geçirmeyi amaçlamıştır. Tarihte görülmüş en büyük kara işgali olan Barbarossa Harekatı'nı başlatmıştır. Savaşın başında önemli zaferler elde etse de savaşın sonucunda büyük bir yenilgiye uğramıştır. Nisan 1945'te Hitler intihar etmiş, Mayıs 1945'te Almanya savaştan yenik ayrılmıştır."
+  },
+  {
+    "id": "POL",
+    "name": "Polonya",
+    "description": "Savaşın başında Molotov-Ribbentrop Paktı sonucunda Almanya ve Sovyetler Birliği tarafından ortak bir işgale uğramıştır. Savaşın sonunda ülkenin konumu Sovyetler Birliği'nin isteği üzerine orijinal konumunun batısına itilmiştir."
+  },
+  {
+    "id": "AVU",
+    "name": "Avusturya",
+    "description": "Savaşın başlamasından önce Almanya tarafından ilhak edilmiştir."
+  },
+  {
+    "id": "MAC",
+    "name": "Macaristan",
+    "description": "Almanya'nın baskıları ve toprak teklifleri üzerine Mihver Devletler'e katılmıştır. Romanya'daki Transilvanya bölgesini savaş süresince elinde bulundurmuştur. Savaşın sonucunda savaş öncesi toprak düzenine döndürülmüştür."
+  },
+  {
+    "id": "CEK",
+    "name": "Çekoslovakya",
+    "description": "Savaş öncesinde Almanya, Münih Anlaşması ile Südetler bölgesini ilhak etmiştir. Daha sonrasında Almanya, ülkenin geri kalanını işgal ederek ülkede iki farklı kukla hükumet kurdu. Mayıs 1945'te Alman işgali sona erdi."
+  },
+  {
+    "id": "SLO",
+    "name": "Slovakya",
+    "description": "Savaş öncesinde Almanya'nın Çekoslovakya'yı işgal etmesi sonucu kurulan Alman kuklası iki yönetimden biri. Nisan 1945'te bu yönetim dağıtıldı."
+  },
+  {
+    "id": "BAM",
+    "name": "Bohemya ve Moravya",
+    "description": "Savaş öncesinde Almanya'nın Çekoslovakya'yı işgal etmesi sonucu kurulan Alman kuklası iki yönetimden biri ve resmi olarak Alman himayesi. Nisan 1945'te bu yönetim dağıtıldı."
+  },
+  {
+    "id": "ITA",
+    "name": "İtalya",
+    "description": "Fransa'nın işgalinin ardından Haziran 1940'ta Mussolini liderliğinde Mihver Devletler'e katılmış ve savaşa dahil olmuştur. Avrupa'daki en güçsüz şeklinde nitelendirilen ülkedir. Temmuz 1943 itibarıyla Müttefik Devletler, güney bölgelerini işgal etmiş ve Eylül 1943'te ateşkes imzalamıştır. Bunun sonucunda Almanya ülkenin kuzeyini işgal etmiştir."
+  },
+  {
+    "id": "MAL",
+    "name": "Malta",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ARN",
+    "name": "Arnavutluk",
+    "description": "Nisan 1939'da İtalya tarafından işgal edilmiştir. Kasım 1944'te Mihver işgali sona ermiştir."
+  },
+  {
+    "id": "YUG",
+    "name": "Yugoslavya",
+    "description": "Nisan 1941'de Alman işgaline uğramıştır. Tito liderliğindeki komünist birlikler Mihver güçlerine karşı bir mücadele yürütmüş ve işgal 1945'te sonlandırılmıştır."
+  },
+  {
+    "id": "YUN",
+    "name": "Yunanistan",
+    "description": "Ekim 1940'ta İtalya'nın ilhak ultimatomunu reddetmiş ve İtalya ile savaşmıştır. İtalya'nın bu savaştan yenilgiler alması sonucu Alman birlikleri Bulgaristan ve Yugoslavya üzerinden getirilerek Yunanistan işgal edilmiştir (Nisan 1941). "
+  },
+  {
+    "id": "KIB",
+    "name": "Kıbrıs",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BUL",
+    "name": "Bulgaristan",
+    "description": "Mart 1941'de Mihver Devletler safında savaşa katılmıştır. Yunanistan ve Yugoslavya topraklarını işgal etmiştir. Kızıl Ordu'nun ülkeye yaklaşması sırasında savaştan çekilmeye çalışan Bulgaristan, Eylül 1944'te Sovyet işgaline uğramıştır."
+  },
+  {
+    "id": "ROM",
+    "name": "Romanya",
+    "description": "Savaş süresince birçok ülkeye toprak kaybetmiş, ancak Mihver Devletler safında yer almıştır. Barbarossa Harekatı'na en çok asker gönderen Doğu Avrupa ülkelerinden biridir. Kızıl Ordu'nun Romanya'ya yaklaşması sonucunda Kral Mihai Ağustos 1944'te başbakanı tutuklayarak bir darbe yapmış ve ülkeyi Müttefik Devletler safına itmiştir. Ancak, savaş sonucunda ülke Sovyet kontrolünden kurtulamamıştır."
+  },
+  {
+    "id": "GRO",
+    "name": "Grönland",
+    "description": "Danimarka toprağıdır."
+  },
+  {
+    "id": "FAL",
+    "name": "Falkland Adaları",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SOV",
+    "name": "Sovyetler Birliği",
+    "description": "Savaşın başında Almanya ile işbirliği yapmasına karşın Alman işgaline maruz kalmıştır. Zorlu kış şartları sayesinde tam işgalden kurtulmuş ve Stalingrad Muharebesi'nin ardından Almanlar'ı geri püskürtmüştür. Bu süreçte Müttefik Devletler safına katılmıştır. Savaş sonrasında Doğu Avrupa'da büyük bir güç sahibi olmuştur."
+  },
+  {
+    "id": "EST",
+    "name": "Estonya",
+    "description": "Molotov-Ribbentrop Paktı sonucunda Haziran 1940'ta Sovyetler Birliği tarafından ilhak edilmiştir."
+  },
+  {
+    "id": "LET",
+    "name": "Letonya",
+    "description": "Molotov-Ribbentrop Paktı sonucunda Haziran 1940'ta Sovyetler Birliği tarafından ilhak edilmiştir."
+  },
+  {
+    "id": "LIT",
+    "name": "Litvanya",
+    "description": "Molotov-Ribbentrop Paktı sonucunda Haziran 1940'ta Sovyetler Birliği tarafından ilhak edilmiştir."
+  },
+  {
+    "id": "FIN",
+    "name": "Finlandiya",
+    "description": "Sovyetler Birliği ile Kış Savaşı, Devam Savaşı ve Lapland Savaşı sırasında savaşmıştır. Almanya ile ortaklık kursa da Mihver Devletler'e dahil olmamıştır. Savaş sonucunda ilhak edilmemiş, ancak toprak kaybetmiş ve tarafsızlık politikası gütmeye zorlanmıştır."
+  },
+  {
+    "id": "ISA",
+    "name": "İsveç",
+    "description": "Savaş boyunca tarafsız kalmış, ancak Almanya'ya Norveç üzerinden demir ihraç etmiştir."
+  },
+  {
+    "id": "NOR",
+    "name": "Norveç",
+    "description": "İsveç'in Almanya'ya demir ihracatını sağlayan Norveç, Almanya'nın demir ihracatını denizlerde artan bombalamalara karşı koruma isteği sonucunda Nisan 1940'ta Alman hava saldırılarına mağruz kalmıştır. Müttefik Devletler'in desteğine rağmen Haziran 1940'ta Norveç teslim olmuştur. Mayıs 1945'te Alman işgali sona ermiştir."
+  },
+  {
+    "id": "DAN",
+    "name": "Danimarka",
+    "description": "Almanya tarafından Nisan 1940'ta 6 saat içerisinde işgal edilmiştir. Mayıs 1945'te işgal sona ermiştir."
+  },
+  {
+    "id": "IZL",
+    "name": "İzlanda",
+    "description": "Mayıs 1940'ta İngiltere tarafından işgal edilmiştir."
+  },
+  {
+    "id": "YES",
+    "name": "Yeşil Burun Adaları",
+    "description": "Portekiz kolonisidir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "GIN",
+    "name": "Gine-Bissau",
+    "description": "Portekiz kolonisidir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "EKA",
+    "name": "Ekvator Ginesi",
+    "description": "İspanya kolonisidir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "GAM",
+    "name": "Gambiya",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "MAA",
+    "name": "Mali",
+    "description": ""
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "DAH",
+    "name": "Dahomey",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "MOR",
+    "name": "Moritanya",
+    "description": ""
+  },
+  {
+    "id": "NIJ",
+    "name": "Nijer",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "FIL",
+    "name": "Fildişi Sahili",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "GIA",
+    "name": "Gine",
+    "description": ""
+  },
+  {
+    "id": "LIB",
+    "name": "Liberya",
+    "description": ""
+  },
+  {
+    "id": "SIE",
+    "name": "Sierra Leone",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ALT",
+    "name": "Altın Sahili",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "TOG",
+    "name": "Togo",
+    "description": "Fransa mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BRI",
+    "name": "Britanya Togolandı",
+    "description": "İngiltere mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KAM",
+    "name": "Kamerun",
+    "description": "Fransa mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BRA",
+    "name": "Britanya Kamerunu",
+    "description": "İngiltere mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "NIA",
+    "name": "Nijerya",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ORT",
+    "name": "Orta Afrika Cumhuriyeti",
+    "description": ""
+  },
+  {
+    "id": "CAD",
+    "name": "Çad",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KON",
+    "name": "Kongo",
+    "description": ""
+  },
+  {
+    "id": "BEB",
+    "name": "Belçika Kongosu",
+    "description": "Belçika kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "UGA",
+    "name": "Uganda",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "TAN",
+    "name": "Tanganika",
+    "description": "İngiltere mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ZAN",
+    "name": "Zanzibar",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "RUA",
+    "name": "Ruanda-Urundi",
+    "description": "Belçika mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BRB",
+    "name": "Britanya Somalisi",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "CIB",
+    "name": "Cibuti",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ETI",
+    "name": "Etiyopya",
+    "description": "Savaşın başında İtalya tarafından işgal edilmiştir. 1942 yılında bağımsızlığı tanınmıştır."
+  },
+  {
+    "id": "ERI",
+    "name": "Eritre",
+    "description": "İtalya kolonisidir. Bu nedenle Mihver Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ANG",
+    "name": "Angola",
+    "description": "Portekiz kolonisidir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambik",
+    "description": "Portekiz kolonisidir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "KUZ",
+    "name": "Kuzey Rodezya",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "GUN",
+    "name": "Güney Rodezya",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "NYA",
+    "name": "Nyasaland",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "GUC",
+    "name": "Güney Afrika Birliği",
+    "description": ""
+  },
+  {
+    "id": "GUD",
+    "name": "Güneybatı Afrika",
+    "description": "Güney Afrika mandasıdır."
+  },
+  {
+    "id": "BAS",
+    "name": "Basutoland",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BEC",
+    "name": "Beçuanaland",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SVA",
+    "name": "Svaziland",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "MAD",
+    "name": "Madagaskar",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "REU",
+    "name": "Réunion",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "MAU",
+    "name": "Mauritius",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "FAS",
+    "name": "Fas",
+    "description": "Fransa himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ISB",
+    "name": "İspanyol Fası",
+    "description": "İspanya himayesindedir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "ISC",
+    "name": "İspanyol Batı Afrikası",
+    "description": "İspanya kolonisidir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "CEZ",
+    "name": "Cezayir",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "TUN",
+    "name": "Tunus",
+    "description": "Fransa himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "LIA",
+    "name": "Libya",
+    "description": "İtalya kolonisidir. Bu nedenle Mihver Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SUD",
+    "name": "Sudan",
+    "description": "Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "IRA",
+    "name": "İran",
+    "description": "Savaşın başında tarafsız olmasına rağmen Müttefik Devletler'e dahil olan İngiltere ve Sovyetler Birliği tarafından Mihver gelişimini durdurmak için işgal edilmiştir. Bu işgal, savaş sonrasında ancak uluslararası baskının oluşması sonucu bitirilmiştir."
+  },
+  {
+    "id": "TUR",
+    "name": "Türkiye",
+    "description": "Savaşın başında tarafsız kalmıştır. Şubat 1945'de Müttefik Devletler safında savaşa katılmış, ancak herhangi bir askeri çatışmada yer almamıştır."
+  },
+  {
+    "id": "IRB",
+    "name": "Irak",
+    "description": "İngiltere mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur.hil olmuştur."
+  },
+  {
+    "id": "MIS",
+    "name": "Mısır",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SUA",
+    "name": "Suriye",
+    "description": "Fransa himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "LUB",
+    "name": "Lübnan",
+    "description": "Fransa himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "URD",
+    "name": "Ürdün",
+    "description": "İngiltere mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur.hil olmuştur."
+  },
+  {
+    "id": "FIA",
+    "name": "Filistin",
+    "description": "İngiltere mandasıdır. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SUU",
+    "name": "Suudi Arabistan",
+    "description": "Savaşın başında tarafsız kalmıştır. Şubat 1945'de Müttefik Devletler safında savaşa katılmış, ancak herhangi bir askeri çatışmada yer almamıştır."
+  },
+  {
+    "id": "YEM",
+    "name": "Yemen",
+    "description": ""
+  },
+  {
+    "id": "ADE",
+    "name": "Aden",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KAT",
+    "name": "Katar",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ATE",
+    "name": "Ateşkes Devletleri",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "UMM",
+    "name": "Umman",
+    "description": "Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "AFG",
+    "name": "Afganistan",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "CIN",
+    "name": "Çin",
+    "description": "Savaş süresince bir iç savaş halinde olan Çin, Japonya'nın saldırılarına karşı Müttefik Devletler safında yer almıştır. Savaş süresince ülkenin büyük bir bölümü Japon işgali altında kalmıştır."
+  },
+  {
+    "id": "MOG",
+    "name": "Moğolistan",
+    "description": "Savaş süresince Sovyetler Birliği'ne yardımda bulunmuştur. Ağustos 1945'te Müttefik Devletler safında savaşa resmen dahil olmuştur."
+  },
+  {
+    "id": "TAY",
+    "name": "Tayvan",
+    "description": "Japon kolonisidir. Bu nedenle Mihver Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KOR",
+    "name": "Kore",
+    "description": "Japon kolonisidir. Bu nedenle Mihver Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "JAP",
+    "name": "Japonya",
+    "description": "Üçlü Pakt ile Mihver Devletler'i oluşturan 3 devletten biridir. Yıllarca dünyadan izole yaşamalarının ardından Batılı devletler tarafından küçük duruma düşürülen Japonya, doğal kaynaklarının kıtlığından ötürü komşularına saldırılar düzenlemeye başlamış ve militer bir anlayış gütmüştür. Hiroshima ve Nagasaki'ye iki farklı atom bombası saldırısına uğramıştır. Ağustos 1945'te teslim olmuştur."
+  },
+  {
+    "id": "BRC",
+    "name": "Britanya Hindistanı",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BUT",
+    "name": "Butan",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "BUR",
+    "name": "Burma",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SEY",
+    "name": "Seylan",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "MAB",
+    "name": "Maldivler",
+    "description": ""
+  },
+  {
+    "id": "NEP",
+    "name": "Nepal",
+    "description": "Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SIY",
+    "name": "Siyam",
+    "description": "Savaşın başında tarafsız kalmıştır. Aralık 1941'de Japon işgaline uğramış ve Japonya safında savaşa katılmaya zorlanmıştır. Haziran 1944 sonrasında başa gelen yeni hükümet savaş ilanlarını geri çekmiştir."
+  },
+  {
+    "id": "KAA",
+    "name": "Kamboçya",
+    "description": "Fransa mandasıdır. Haziran 1940'ta Fransa'nın Almanya ile ateşkes imzalaması sonucunda Vichy Fransa'nın hakimiyetine geçmiştir. Aralık 1941 itibarıyla Japonya tarafından işgal edilmiştir. Ağustos 1945'te Japonya'nın teslim olmasına kadar Japon işgali altında bulunmuştur."
+  },
+  {
+    "id": "LAO",
+    "name": "Laos",
+    "description": "Fransa mandasıdır. Haziran 1940'ta Fransa'nın Almanya ile ateşkes imzalaması sonucunda Vichy Fransa'nın hakimiyetine geçmiştir. Aralık 1941 itibarıyla Japonya tarafından işgal edilmiştir. Ağustos 1945'te Japonya'nın teslim olmasına kadar Japon işgali altında bulunmuştur."
+  },
+  {
+    "id": "VIE",
+    "name": "Vietnam",
+    "description": "Fransa mandasıdır. Haziran 1940'ta Fransa'nın Almanya ile ateşkes imzalaması sonucunda Vichy Fransa'nın hakimiyetine geçmiştir. Aralık 1941 itibarıyla Japonya tarafından işgal edilmiştir. Ağustos 1945'te Japonya'nın teslim olmasına kadar Japon işgali altında bulunmuştur."
+  },
+  {
+    "id": "FED",
+    "name": "Federe Malay Devletleri",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "FEA",
+    "name": "Federe Olmayan Malay Devletleri",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "KUA",
+    "name": "Kuzey Borneo",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SAR",
+    "name": "Saravak",
+    "description": "Aralık 1941 itibarıyla Japonya tarafından işgal edilmiştir. Ağustos 1945'te Japonya'nın teslim olmasına kadar Japon işgali altında bulunmuştur."
+  },
+  {
+    "id": "BOG",
+    "name": "Boğazlar Yerleşimleri",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "BRU",
+    "name": "Brunei",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "FIB",
+    "name": "Filipinler",
+    "description": "Aralık 1941 itibarıyla Japonya tarafından işgal edilmiştir. Ağustos 1945'te Japonya'nın teslim olmasına kadar Japon işgali altında bulunmuştur."
+  },
+  {
+    "id": "HOA",
+    "name": "Hollanda Doğu Hint Adaları",
+    "description": "Hollanda kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "POA",
+    "name": "Portekiz Timoru",
+    "description": "Portekiz kolonisidir. Bu nedenle savaşa dahil olmamıştır."
+  },
+  {
+    "id": "AVA",
+    "name": "Avustralya",
+    "description": "Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "PAP",
+    "name": "Papua",
+    "description": "Avustralya kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "YEN",
+    "name": "Yeni Gine",
+    "description": "Avustralya kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "YEA",
+    "name": "Yeni Zelanda",
+    "description": "Müttefik Devletler safında savaşa katılmıştır."
+  },
+  {
+    "id": "YEB",
+    "name": "Yeni Kaledonya",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SOL",
+    "name": "Solomon Adaları",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "FIJ",
+    "name": "Fiji",
+    "description": "İngiltere kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "FRC",
+    "name": "Fransız Polinezyası",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "INI",
+    "name": "İnini",
+    "description": "Fransa kolonisidir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "ITB",
+    "name": "İtalyan Somalisi",
+    "description": "İtalya kolonisidir. Bu nedenle Mihver Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "DOG",
+    "name": "Doğu Aden Himayesi",
+    "description": ""
+  },
+  {
+    "id": "GUE",
+    "name": "Güney Sahalin",
+    "description": "Japon kolonisidir. Bu nedenle Mihver Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "TIB",
+    "name": "Tibet",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "KUV",
+    "name": "Kuveyt",
+    "description": "İngiltere himayesindedir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "SAN",
+    "name": "San Marino",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "LIH",
+    "name": "Lihtenştayn",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "AND",
+    "name": "Andorra",
+    "description": "Savaş boyunca tarafsız kalmıştır."
+  },
+  {
+    "id": "SVB",
+    "name": "Svalbard Adaları",
+    "description": "Norveç'e aittir. Bu nedenle Müttefik Devletler safında savaşa dahil olmuştur."
+  },
+  {
+    "id": "GDR",
+    "name": "Doğu Almanya",
+    "description": ""
+  },
+  {
+    "id": "FAC",
+    "name": "Batı Almanya",
+    "description": ""
+  },
+  {
+    "id": "DPR",
+    "name": "Kuzey Kore",
+    "description": ""
+  },
+  {
+    "id": "ROC",
+    "name": "Güney Kore",
+    "description": ""
+  }
+];
